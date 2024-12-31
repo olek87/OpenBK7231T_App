@@ -99,15 +99,15 @@
 //#define ENABLE_DRIVER_BL0942    1
 //#define ENABLE_DRIVER_CSE7766   1
 //#define ENABLE_DRIVER_WEMO		1
-#define ENABLE_DRIVER_FREEZE	0
+define ENABLE_DRIVER_FREEZE	0
 //#define ENABLE_DRIVER_DHT		1
 // parse things like $CH1 or $hour etc
 #define ENABLE_EXPAND_CONSTANT	1
 #define ENABLE_TASMOTA_JSON		1
 #define ENABLE_DRIVER_DDP		1
 #define ENABLE_DRIVER_SSDP		1
-//#define ENABLE_DRIVER_CHT83XX 1
-//#define ENABLE_DRIVER_DS1820		1
+#define ENABLE_DRIVER_CHT83XX 1
+#define ENABLE_DRIVER_DS1820		1
 #define OBK_OTA_EXTENSION 		".bin.xz.ota"
 
 
